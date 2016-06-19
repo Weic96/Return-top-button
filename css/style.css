@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+.page{
+	width: 100%;
+}
+#btn{
+	width: 40px;
+	height: 40px;
+	background: url(../img/back-top.png) no-repeat left top;
+	position: fixed;
+	margin-left: 90%;
+	bottom: 30px;
+	display: none;
+}
+#btn:hover{
+	background: url(../img/back-top.png) no-repeat left -40px;    
+}
